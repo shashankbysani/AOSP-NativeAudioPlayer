@@ -1,0 +1,8 @@
+package android.hardware.custommedia@1.0;
+
+interface ICustomMediaPlayer {
+    play(string filePath) generates (int32_t status);
+    stop() generates (int32_t status);
+    pause() generates (int32_t status);
+};
+
